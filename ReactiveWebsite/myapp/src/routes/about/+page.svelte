@@ -1,2 +1,2 @@
 <h1>about</h1>
-<p>this is the about page.</p>
+<p>This about page is in development right now</p>

@@ -1,4 +1,5 @@
 <h1>Projects</h1>
+<p> Projects demostrated over the past years </p>
 
 <ul>
     <li><a href="/blog/one">one</a></li>

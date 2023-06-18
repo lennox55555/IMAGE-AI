@@ -15,8 +15,6 @@
         </div>
     {/if}
 
-
-
 <div id="hero">
     <div id="circle-bg">
         <img  id="professionalPicture" src="./src/images/ProfessionalPicture.jpg">
@@ -174,7 +172,6 @@
             }
         };
     }
-
 
 </script>
 

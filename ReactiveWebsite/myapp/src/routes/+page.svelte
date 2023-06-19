@@ -15,6 +15,8 @@
         </div>
     {/if}
 
+
+
 <div id="hero">
     <div id="circle-bg">
         <img  id="professionalPicture" src="./src/images/ProfessionalPicture.jpg">
@@ -151,7 +153,7 @@
     let visible = true;
 
 
-    function typewriter(node, { speed = 2 }) {
+    function typewriter(node, { speed = 5 }) {
         const valid = (
             node.childNodes.length === 1 &&
             node.childNodes[0].nodeType === Node.TEXT_NODE
@@ -172,6 +174,7 @@
             }
         };
     }
+
 
 </script>
 

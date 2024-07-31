@@ -9,28 +9,27 @@ IMAGE-AI is a powerful AI system that integrates various machine learning models
 - **Image Segmentation**: Segments the image to isolate specific parts for further analysis.
 
 
-
-ascii
-+-------------------------+
-| Input Question |
-+-----------+-------------+
-|
-v
-+------------+-------------+
-| NLP Model |
-+------------+--------------+
-|
-+------------------+------------------+
-| | |
-v v v
-+---------+------+ +--------+---------+ +-----+---------+
-| Classification | | Object Detection | | Segmentation |
-| Model | | Model | | Model |
-+---------+------+ +--------+---------+ +-----+---------+
-| | |
-v v v
-+----------+----------+ +-----+-----+ +---------+---------+
-| Classify the Animal | | Count the | | Segment the Animal |
-| | | Animals | | Calculate Average |
-| | | | | RGB Color |
-+----------------------+ +-----------+ +--------------------+
+                       +-------------------------+
+                       |      Input Question     |
+                       +-----------+-------------+
+                                   |
+                                   v
+                      +------------+-------------+
+                      |          NLP Model        |
+                      +------------+--------------+
+                                   |
+                +------------------+------------------+
+                |                  |                  |
+                v                  v                  v
+      +---------+------+  +--------+---------+  +-----+---------+
+      | Classification |  | Object Detection |  | Segmentation  |
+      |      Model     |  |      Model       |  |     Model     |
+      +---------+------+  +--------+---------+  +-----+---------+
+                |                  |                  |
+                v                  v                  v
+     +----------+----------+ +-----+-----+  +---------+---------+
+     | Classify the Animal  | | Count the |  | Segment the Animal |
+     |                      | |  Animals  |  | Calculate Average  |
+     |                      | |            |  |    RGB Color      |
+     +----------------------+ +-----------+  +--------------------+
+"""

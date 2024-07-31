@@ -8,8 +8,7 @@ IMAGE-AI is a powerful AI system that integrates various machine learning models
 - **Object Detection**: Detects and counts the number of objects (e.g., animals) in an image.
 - **Image Segmentation**: Segments the image to isolate specific parts for further analysis.
 
-"""
-                       +-------------------------+
+ +-------------------------+
                        |      Input Question     |
                        +-----------+-------------+
                                    |

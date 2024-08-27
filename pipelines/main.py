@@ -53,5 +53,44 @@ def create_dataset(items, num_images_per_batch=10, max_storage_bytes=1.5 * 1024 
                 print(f"Failed to download images for {item}: {e}")
 
 if __name__ == "__main__":
-    items = ["nuts", "bolts", "screws"]
+    items = [
+    "a nut (hardware)",
+    "a bolt (hardware)",
+    "a screw (hardware)",
+    "a washer (hardware)",
+    "a nail (hardware)",
+    "a hinge (hardware)",
+    "a bracket (hardware)",
+    "a anchor (hardware)",
+    "a rivets (hardware)",
+    "a clamp (hardware)",
+    "a grommet (hardware)",
+    "a pin (hardware)",
+    "a stud (hardware)",
+    "a bushing (hardware)",
+    "a spacer (hardware)",
+    "a latche (hardware)",
+    "a fastener (hardware)",
+    "a spring (hardware)",
+    "a lock (hardware)",
+    "a hook (hardware)",
+    "a clip (hardware)",
+    "a coupling (hardware)",
+    "a o-ring (hardware)",
+    "a gasket (hardware)",
+    "a seal (hardware)",
+    "a bearing (hardware)",
+    "a knob (hardware)",
+    "a handle (hardware)",
+    "a pulley (hardware)",
+    "a chain (hardware)",
+    "a cable (hardware)",
+    "a fitting (hardware)",
+    "a standoff (hardware)",
+    "a tack (hardware)",
+    "a tie-down (hardware)",
+    "a eyelet (hardware)",
+    "a plate (hardware)",
+    "a strap (hardware)"
+]
     create_dataset(items, num_images_per_batch=10)

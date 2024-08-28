@@ -29,7 +29,7 @@ This tool is particularly useful if you're looking to build a classification mod
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ML-pipeline-classification-model.git
+git clone https://github.com/lennox55555/ML-pipeline-classification-model.git
 cd ML-pipeline-classification-model
 ```
 
